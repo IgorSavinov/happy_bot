@@ -5,6 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -17,14 +20,6 @@
 
 
 
-  {
-    "name": "happy",
-    "version": "1.0.0",
-    "scripts": {
-      "build": "webpack --config webpack.config.js"
-    }
- 
-  }
   
   
   
