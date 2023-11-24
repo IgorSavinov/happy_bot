@@ -2,12 +2,13 @@
   "name": "happy",
   "version": "1.0.0",
   "main": "index.js",
-  // "scripts": {
-  //   "test": "echo \"Error: no test specified\" && exit 1"
-  // },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js"
   },
+  
+
+  
   "author": "",
   "license": "ISC",
   "dependencies": {
