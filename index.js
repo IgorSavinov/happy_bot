@@ -5,7 +5,7 @@ const token = '6367774417:AAFKh_UUgrKVSYhHs9-Tlwl7OShtek-TUaU';
 
 const bot = new TelegramBot(token, { polling: true });
 
-const bannedWords = ['word1', 'word2', 'word3'];
+const bannedWords = ['крипта', 'курсы', 'набираю'];
 
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
